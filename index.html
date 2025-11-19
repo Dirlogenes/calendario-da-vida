@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Calendar</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans overflow-hidden selection:bg-indigo-100">
+
+    <div id="app" class="h-screen w-full flex flex-col relative">
+        </div>
+
+    <div id="tooltip-container" class="fixed pointer-events-none z-50 hidden transition-opacity duration-200 opacity-0">
+        <div id="tooltip-content" class="bg-gray-900 text-white px-4 py-3 rounded-lg shadow-xl text-sm max-w-xs">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
